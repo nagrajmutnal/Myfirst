@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/buttonToast"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" toast Button" />
+
+        <EditText
+            android:id="@+id/enterMessage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="enter a message"
+            android:inputType="textPersonName" />
+
+        <Button
+            android:id="@+id/sendMessageToNextActivity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="send meg to nxt activity" />
+
+        <Button
+            android:id="@+id/sndtootherapps"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="share toother apps" />
+
+        <Button
+            android:id="@+id/recyclerview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="recycleview demo" />
+    </LinearLayout>
+</LinearLayout>
